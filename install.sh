@@ -33,7 +33,8 @@ if [ -z "$LATEST" ]; then
   exit 1
 fi
 
-ASSET="${BIN_NAME}_${LATEST}_${OS}_${ARCH}.tar.gz"
+VERSION="${LATEST#v}"
+ASSET="${BIN_NAME}_${VERSION}_${OS}_${ARCH}.tar.gz"
 URL="https://github.com/${REPO}/releases/download/${LATEST}/${ASSET}"
 
 TMP=$(mktemp -d)
