@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO="macuenca/inmail-cli"
+REPO="inmaildev/inmail-cli"
 BIN_NAME="inmail"
 INSTALL_DIR="${INSTALL_DIR:-/usr/local/bin}"
 
