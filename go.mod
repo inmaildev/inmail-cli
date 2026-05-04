@@ -1,4 +1,4 @@
-module github.com/macuenca/inmail-cli
+module github.com/inmaildev/inmail-cli
 
 go 1.25.0
 
